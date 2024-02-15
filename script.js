@@ -24,7 +24,7 @@ noBtn.addEventListener("click", () => {
   noBtn.style.transform = `translate(${randomX}px, ${randomY}100px)`;
 });
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("mouseenter", () => {
   yayText1.style.display = "none";
   can1.style.display = "block";
   can1.src = 'https://media.discordapp.net/attachments/1079605031889797121/1207518380152717322/sad-sad-cat.gif?ex=65dff020&is=65cd7b20&hm=afb8994372c98e1e9d1bcbcd525aade0386bb3a3e42aa39f25b411786daa083c&=&width=822&height=822'
